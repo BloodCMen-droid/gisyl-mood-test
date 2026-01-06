@@ -1,0 +1,14 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  padding-top: 85px;
+
+  background-color: var(--bs-body-bg);
+  color: var(--bs-body-color);
+}
+.seo-only {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}

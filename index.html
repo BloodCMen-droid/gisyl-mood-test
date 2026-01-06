@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="auto">
+<head>
+    <meta charset="UTF-8">
+    <!-- 🔎 SEO BÁSICO -->
+  <title>Poleras y Polos Personalizados en Trujillo, Perú | G'isyl Mood</title>
+
+<meta name="description"
+content="Confeccionamos poleras y polos personalizados en Trujillo, Perú. Diseños únicos para pareja, marcas y eventos. Cotiza fácil por WhatsApp.">
+
+<!-- Opcional (no afecta SEO Google) -->
+<meta name="keywords"
+content="poleras personalizadas, polos personalizados, prendas de vestir personalizadas, Trujillo Perú">
+
+  
+  
+        <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://gisyl-mood.netlify.app/">
+    <meta name="google-site-verification" content="Yyek2lhjGExXrVimKQVl14fkS15_RGx5djC_AI52XOA" />
+   
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Logo -->
+<link rel="icon" href="/favicon.ico?v=2025">
+
+
+
+  
+
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS propio -->
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="CSS/base/resets.css">
+    <link rel="stylesheet" href="CSS/base/variables.css">
+    <link rel="stylesheet" href="CSS/base/global.css">
+
+    <link rel="stylesheet" href="CSS/Componets/navbar.css">
+    <link rel="stylesheet" href="CSS/Componets/footer.css">
+
+
+    <link rel="stylesheet" href="CSS/Pages/Index.css"> 
+    <link rel="stylesheet" href="CSS/Pages/Card_index.css">
+
+</head>
+
+<body>
+ 
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-hm fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">
+            G'isyl Mood
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="./HTML/Productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/HTML/Nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+                <li class="nav-item">
+                    <button class="btn btn-hm btn-sm ms-lg-3" id="btnAcceder">
+                        Acceder
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- ================= CARRUSEL ================= -->
+<div id="carouselGysel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000" data-bs-pause="false">
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="IMG/Carousel/Carousel_01.webp" class="d-block w-100 carousel-img"
+          alt="Poleras personalizadas en Trujillo Perú - G'isyl Mood" fetchpriority="high" >
+      <div class="carousel-caption animate-slide">
+        <h2 class="fw-bold">Moda que inspira</h2>
+        <p>Descubre tu estilo con G'isyl Mood</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="IMG/Carousel/Carousel_02.webp" class="d-block w-100 carousel-img"
+           alt="Polos personalizados para pareja en Trujillo, Perú"
+           loading="lazy">
+      <div class="carousel-caption animate-slide">
+        <h2 class="fw-bold">Elegancia y comodidad</h2>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <img src="IMG/Carousel/Carousel_03.webp" class="d-block w-100 carousel-img"
+           alt="Nueva colección poleras personalizadas - G'isyl Mood" loading="lazy">
+      <div class="carousel-caption animate-slide">
+        <h2 class="fw-bold">Nueva colección</h2>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselGysel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselGysel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+
+<!-- ================= PRODUCTOS ================= -->
+<section id="productos" class="container my-5">
+
+    <h1 class="pb-5 text-center"><spam>Prendas de vestir personalizadas en Trujillo-Perú</spam></h1>
+
+   <h2 class="text-center mb-4 productos-title-2">
+    <span>Nuestros Productos</span>
+</h2>
+
+    <div class="row" id="listaProductos">
+        <!-- JS cargará los productos -->
+    </div>
+</section>
+
+<!-- ================= NOSOTROS ================= -->
+<section id="nosotros" class="py-5">
+  <div class="container">
+    <div class="row align-items-stretch">
+      
+      <!-- Columna de texto -->
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="p-4 bg-light shadow rounded h-100">
+          <h2 class="text-danger mb-3">Sobre Nosotros</h2>
+          <p class="lead" style="line-height: 1.6;">
+            En <strong>G'isyl Mood</strong> creemos que la moda no solo es ropa, sino una forma de expresar tu personalidad. 
+            Nuestra misión es ofrecer prendas modernas, elegantes y accesibles, pensadas para realzar tu estilo en cada 
+            ocasión, desde momentos casuales hasta eventos especiales.
+          </p>
+          <p class="lead" style="line-height: 1.6;">
+            Cada colección está diseñada con pasión, cuidando cada detalle para que te sientas único(a) y seguro(a) 
+            mientras luces tus outfits favoritos.
+          </p>
+          <a href="./HTML/Productos.html" class="btn btn-danger mt-3">Ver Productos</a>
+        </div>
+      </div>
+
+      <!-- Columna de imagen -->
+      <div class="col-md-6">
+        <div class="h-100">
+          <img src="/IMG/Card/Card_01.png" alt="Sobre Nosotros" class="img-fluid nosotros-img">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<!-- ================= FOOTER ================= -->
+<footer class="site-footer editorial-pro">
+  <div class="container">
+
+    <div class="footer-grid">
+
+      <!-- Marca -->
+      <div class="footer-brand">
+        <p class="brand-name">G’ISYL MOOD</p>
+        <p class="brand-desc">
+          Prendas personalizadas con identidad propia.
+        </p>
+      </div>
+
+      <!-- Redes -->
+      <div class="footer-social">
+        <a href="https://www.instagram.com/gm_gisylmood" target="_blank">
+          Instagram
+        </a>
+        <a href="https://www.facebook.com/share/1HS85CzLwk/" target="_blank">
+          Facebook
+        </a>
+        <a href="https://www.tiktok.com/@gisylmood" target="_blank">
+          TikTok
+        </a>
+        <a href="https://wa.me/51949626583" target="_blank">
+          WhatsApp
+        </a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      © 2025 G’ISYL MOOD
+    </div>
+
+  </div>
+</footer>
+
+
+
+<!-- ================= MODAL LOGIN ================= -->
+<div class="modal fade" id="loginModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title">Acceso al sistema</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <input type="text" id="txtUsuario" class="form-control mb-3" placeholder="Usuario">
+                <input type="password" id="txtPassword" class="form-control mb-3" placeholder="Contraseña">
+                <button id="btnLogin" class="btn btn-danger w-100">Ingresar</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- ================= SCRIPTS ================= -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="JS/app.js"></script>
+<script src="/JS/login.js"></script>
+</body>
+</html>

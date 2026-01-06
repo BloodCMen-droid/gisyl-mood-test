@@ -1,0 +1,163 @@
+/* ==================================
+   NAVBAR HM – UNIFICADO
+   components/navbar.css
+================================== */
+
+/* BASE */
+.navbar-hm {
+  background-color: var(--bs-body-bg);
+  border-bottom: 1px solid var(--bs-border-color);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+/* CONTENEDOR */
+.navbar-hm .container {
+  max-width: 1200px;
+}
+
+/* BRAND */
+.navbar-hm .navbar-brand {
+  font-size: 1.35rem;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+  color: var(--bs-danger);
+}
+
+/* LINKS */
+.navbar-hm .nav-link {
+  color: var(--bs-body-color);
+  font-size: 0.95rem;
+  font-weight: 500;
+  position: relative;
+  padding: 6px 10px;
+  transition: color 0.25s ease;
+}
+
+.navbar-hm .nav-link:hover {
+  color: var(--bs-danger);
+}
+
+/* SUBRAYADO HOVER */
+.navbar-hm .nav-link::after {
+  content: "";
+  position: absolute;
+  left: 10%;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--bs-danger);
+  transition: width 0.25s ease;
+}
+
+.navbar-hm .nav-link:hover::after {
+  width: 80%;
+}
+
+/* DROPDOWN */
+.navbar-hm .dropdown-menu {
+  border-radius: 6px;
+  margin-top: 10px;
+  background-color: var(--bs-body-bg);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--bs-border-color);
+  animation: dropdownFade 0.25s ease;
+}
+
+@keyframes dropdownFade {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ITEMS DROPDOWN */
+.navbar-hm .dropdown-item {
+  font-size: 0.9rem;
+  padding: 8px 14px;
+  color: var(--bs-body-color);
+  transition: all 0.2s ease;
+}
+
+.navbar-hm .dropdown-item:hover {
+  background-color: var(--bs-danger);
+  color: #fff;
+}
+
+/* BOTÓN ACCEDER */
+.navbar-hm #btnAcceder,
+.navbar-hm .btn-hm {
+  background-color: var(--bs-danger);
+  color: #fff;
+  border-radius: 20px;
+  padding: 6px 16px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: all 0.25s ease;
+}
+
+.navbar-hm #btnAcceder:hover,
+.navbar-hm .btn-hm:hover {
+  background-color: color-mix(in srgb, var(--bs-danger), black 15%);
+  transform: translateY(-1px);
+}
+
+/* MOBILE */
+@media (max-width: 991px) {
+  .navbar-hm .navbar-collapse {
+    background-color: var(--bs-body-bg);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .navbar-hm .nav-link::after {
+    display: none;
+  }
+}
+/* NAVBAR SCROLL ANIMATION */
+.navbar-hm {
+  transition: transform 0.4s ease, box-shadow 0.3s ease;
+}
+
+.navbar-hm.nav-hidden {
+  transform: translateY(-100%);
+}
+/* SUAVIZAR COLLAPSE MOBILE */
+.navbar-collapse {
+  transition: height 0.35s ease, opacity 0.25s ease;
+}
+
+.navbar-collapse.collapsing {
+  opacity: 0;
+}
+
+.navbar-collapse.show {
+  opacity: 1;
+}
+
+/*detalles menu*/
+/* GLASS SOLO PARA NAVBAR */
+.navbar-hm {
+  background-color: rgba(255, 255, 255, 0.85);
+}
+
+/* Blur solo cuando NO está expandido */
+@media (min-width: 992px) {
+  .navbar-hm {
+    backdrop-filter: blur(8px);
+  }
+}
+
+.navbar-hm {
+  box-shadow: none;
+}
+
+.navbar-hm:not(.nav-hidden) {
+  box-shadow: 0 6px 18px rgba(0,0,0,.08);
+}
+

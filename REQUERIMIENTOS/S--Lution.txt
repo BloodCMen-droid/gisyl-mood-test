@@ -1,0 +1,22 @@
+CARDS   en 800 X800  y .Webp
+
+Card-Bordado
+Card-Estampado
+Card-Pijamas 
+
+CAROUSEL en 
+
+
+
+IMPLEMENTACION SEO
+- Pijamas
+- Polo-Bordado
+- Polo-Estampado
+- Conjunto-Bordado
+- Conjunto-Estampado
+- Familia-Estampado
+- Familia-Bordado
+- Poleras-personajes
+- Poleras-Bordado
+- Poleras-Estampado
+

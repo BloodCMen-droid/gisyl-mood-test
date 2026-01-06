@@ -1,0 +1,112 @@
+
+
+
+        body { background-color: #f8f9fa; padding-top: 40px; padding-bottom: 60px; }
+        .section-title { text-align: center; margin: 60px 0 40px; font-size: 2.5rem; color: #e91e63; }
+        .card { 
+            transition: transform 0.3s; 
+            height: 100%; 
+            border: none; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        .card:hover { transform: translateY(-10px); }
+        .card-img-top { height: 400px; object-fit: cover; background-color: #eee; }
+        .price { font-size: 1.8rem; font-weight: bold; color: #e91e63; }
+        .btn-whatsapp {
+            background-color: #25D366;
+            color: white;
+            font-weight: bold;
+        }
+        .btn-whatsapp:hover { background-color: #128C7E; color: white; }
+
+
+
+
+
+/* CARD ESTILO H&M */
+.card-hm {
+  background: transparent;
+  border-radius: 0;
+}
+
+.card-hm .img-wrapper {
+  overflow: hidden;
+}
+
+.card-hm img {
+  border-radius: 0;
+  transition: transform 0.4s ease;
+}
+
+.card-hm:hover img {
+  transform: scale(1.05);
+}
+
+/* TEXTO */
+.card-hm .card-title {
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.card-hm .price {
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+/* BOTÓN MINIMAL */
+.btn-hm {
+  border: 1px solid #000;
+  background: transparent;
+  color: #000;
+  font-size: 0.85rem;
+  padding: 12px;
+  border-radius: 0;
+  transition: all 0.3s ease;
+}
+
+.btn-hm:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* TITULO */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+/* TÍTULO */
+.titulo-principal {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  margin-bottom: 10px;
+}
+
+/* SUBTÍTULO */
+.subtitulo {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 60px;
+}
+.titulo-principal::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 1px;
+  background: #000;
+  margin: 15px auto 0;
+}
+/*Mejora para carga creo XD*/
+.img-wrapper {
+  width: 100%;
+  aspect-ratio: 1 / 1; /* 800x800 visual */
+  overflow: hidden;
+  background: #f5f5f5; /* placeholder elegante */
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
